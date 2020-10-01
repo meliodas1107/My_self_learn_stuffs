@@ -1,2 +1,6 @@
-# coursera_web1
-Coursera web learning 1 
+# my self learining 
+different things that i'm learning by myself .
+currently these :
+
+linux 
+git 
