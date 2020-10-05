@@ -1,0 +1,48 @@
+pidof 
+
+ps -ef | grep aa.txt
+pgrep -l -u meliodas // processes that are owned my fullmetal
+
+R running
+S sleeping
+#Waiting
+T Stopped
+Z Zombie
+D uninterruptable sleep
+
+
+..............
+How to bring job to background
+
+method 1
+start
+ctrl+z
+bg
+jobs
+fg #fg%2
+
+method 2
+vim &
+jobs 
+fg 
+
+bg %1
+fg %1
+
+............................
+
+killing  a process
+kill -l # to see all the signals (64)
+
+kill -s 9 3761 # 9 is the signal to kill SIGKILL see $kill -l
+
+kill -s 19 3761 #stops 19 is the signal number 
+kill -sigstop 4016 # to stop using signal name 
+by default it uses 50 i think
+killall -s 9 gedit # to use name 
+
+
+
+
+
+

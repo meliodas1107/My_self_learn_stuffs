@@ -1,0 +1,16 @@
+passwd -l saurav to l;ock account passwd 
+passwd -u saurav to unlock the account passwd
+passwd -e saurav to change passwd next time 
+passwd -n 10 saurav cant change passwd for next 10 days
+passwd -x 30 saurav max days the passwd is there
+chage saurav to view the min max status days 
+
+passwd -w 3 saurav  some warning 
+chage to see status  again
+passwd -i 5 give relaxation for 5 days to change passwd till disabled
+
+usermod -e 2020/12/31 to set expiration date 
+chage to see all the changes related to the user i guess
+passwd -d  saurav for no passwd to enter 
+
+$1$is MD5 2.2. $2a$is Blowfish 2.3. $2y$is Blowfish 2.4. $5$is SHA-256 2.5. $6$is SHA-512

@@ -1,0 +1,24 @@
+redirecting output to a file 
+std in stdin  channnel number 0 keyboard
+std output stdout . channel number 1 terminal
+std error stderror. 2 terminal
+to the files ..3,4,5... 
+
+2>file redirecting standard error
+&>file to combine both stderro and op
+ls man &>both
+ls months &>both
+
+/dev/null
+ls months  2>/dev/null
+/dev/null will always be empty
+
+>>file 2>&1
+ls man >>unique 2>&1
+pipe 
+pipe is different from redirection .
+redirection can redirect to 0,1,2,3... 
+pipe is used to give  to only another command
+
+
+

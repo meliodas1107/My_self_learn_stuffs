@@ -1,0 +1,23 @@
+default permissions umask
+664 defult for file 
+775 default for directory
+umask user mask is used for default permissions
+666(predefined initial value) - 002(umask value) = 664(default value)
+777predefined initial value) - 002(umask value) = 775(deafult value)
+umaask value is substracted from the initail permissions
+can get the umask vaulue with umask
+for regular user 002
+for root    user 022
+
+
+....
+to change umase value 
+umask 025
+to get 750 for files what should be umask
+rwx r-x ---
+
+666
+-
+025
+
+--- --w rwx

@@ -1,0 +1,12 @@
+systemctl stop httpd.service 
+systemctl start httpd
+systemctl status httpd.service
+systemct is-active httpd
+systemctl is-active httpd
+systemctl --type=service
+systemctl enable httpd
+systemctl is-enabled httpd
+systemctl mask httpd
+systemctl unmask httpd
+
+

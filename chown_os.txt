@@ -1,0 +1,8 @@
+chown os
+need to be root or use  sudo 
+
+chown --reference=f1 f2
+chown --from=root me f[1..10]
+chgrp root f1 // to change the group to root 
+ll -d D2
+chgrp -R LPU D2 // to change recursively for files in a diorectory

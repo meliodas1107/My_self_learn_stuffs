@@ -1,0 +1,30 @@
+chage -l kevin // is used to see the values for kevin user
+
+usermod -c test1 kevin //  to put comment as test1
+
+usermod -e 2020/12/23 kevin  // -e is for expiry
+
+How to see the id of kevin?
+id kevin
+
+change primary group of kevin?
+usermod -g LPU kevin
+
+how to add supplementary group ?
+usermod -aG LPU2 kevin  // -a append .no info loss 
+
+options :
+-L to lock 
+-l to change the username 
+-U to unblock the password
+-c to comment
+-e to set expiry date
+-u to change uid
+-g to change gid
+  
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+links basically shortcuts
+two types
+hard link and soft link
+
+
+.............
+
+hard link --> copy of the original file 
+soft link --> link to the original file
+
+hard link 
+copy of original file
+ln original_file link_file
+cp vs hard link --> sync is present in link
+inode values 
+ls -i original/link
+when we create a hard ln of original file , the inode value increases by one 
+removal of one will mot affect the other 
+  
+
+soft link 
+ln -s original link_name 
+count is not increased by 1
+not sync
+dir links are created with help of soft link
+if i delete the link the original will be there
+if i delete the original link will be there
+both are independent of each other 
+

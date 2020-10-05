@@ -1,0 +1,25 @@
+commands used :
+groupadd
+groupmod
+gpasswd //to set passwd to group
+
+
+groupadd -g 1005 lpu3 
+options :
+-g to set gid 
+
+groupadd -o -g 123 apple
+to give existing gid 
+
+
+groupmod 
+
+options:
+
+-n for renaming
+
+
+
+gpasswd pun
+
+gpasswd -a //to do something with users 

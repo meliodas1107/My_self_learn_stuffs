@@ -1,0 +1,6 @@
+
+lid kevin // will list out groups kevin is in
+
+lid  -g  lpu // list out users in the group lpu
+
+

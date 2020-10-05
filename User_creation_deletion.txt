@@ -1,0 +1,36 @@
+user info /etc/passwd
+man 5 passwd 
+man has 8-9 sections
+5th section is regarding the file  
+
+useradd saurav
+in  the passwd file :
+name:uid :gid:something::home:shell
+useradd -d /home/yoyo saurav // to change the home  directory
+useradd -u 7789 saurav // to change the uid 
+id -u saurav to see the id 
+useradd -g 7766 saurav to give existing gid to the user
+id -g saurav to see groupid
+lid 7766 can give the groupid 
+lid saurav can also be used to check his group i guess
+-g primarygrp -G supplementary grp 
+groups -users -g fo lid 
+useradd -e 2020/12/31 S7
+chage -l S7
+change the shell 
+useradd -f  to change shell
+userdel saurav but home will be there 
+userdel -r saurav to remove home as well
+userdel -f saurav to remove an active user using some process
+
+
+Questions 
+mkdir D1 D2 D3
+
+useradd U1 U2 U3
+
+userdel U1 U2 U3mkdir D1 D2 D3
+
+useradd U1 U2 U3
+
+userdel U1 U2 U3

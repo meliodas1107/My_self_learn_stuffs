@@ -1,0 +1,21 @@
+chmod
+
+chown
+
+useradd
+
+usermod
+
+userdel
+
+groupadd
+
+groupmod
+
+groupdel
+
+gpasswd
+
+redirection
+
+vim editor
