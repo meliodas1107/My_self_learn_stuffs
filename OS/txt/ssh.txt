@@ -1,0 +1,4 @@
+localhost or the host name to use ssh on the same machine
+ssh moon@ip
+ssh moon@sora or moon@localhost
+we can use passwords ,or keys

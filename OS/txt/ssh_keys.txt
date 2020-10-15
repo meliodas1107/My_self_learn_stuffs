@@ -1,0 +1,19 @@
+ssh-keygen is used to generate keys ----see the ss
+ssh-keygen 
+two keys willl be created in ~/.ssh folder.
+public and private keys .
+dont give passphrase if want to login automatically 
+................................................
+
+
+remote : ubuntu 
+centos : host with key 
+ssh-copy-id sarath@remote # to copy the key into remote . provide password once .next time no .
+================================
+
+
+From here I dont know 
+configs ubder /etc/ssh/ssh_config.d
+=============================
+nano sshd_config
+PasswordAuthentication no # by default is yes . make it no 
