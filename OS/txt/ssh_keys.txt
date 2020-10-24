@@ -17,3 +17,10 @@ configs ubder /etc/ssh/ssh_config.d
 =============================
 nano sshd_config
 PasswordAuthentication no # by default is yes . make it no 
+
+======================================
+whereis ssh to see the paths 
+
+go to /etc/ssh
+192.168.1.58 > fedora
+Password Authentication no in machine A won't allow anyone else to login to machine A using password .

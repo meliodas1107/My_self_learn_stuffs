@@ -1,0 +1,29 @@
+copying files between systema
+Three packages 
+1. SCP (Secure Copy)
+based on ssh
+scp : command
+scp source_file sarath@ip:dest_folder
+
+========================================
+2 . SFTP(Secure FTP)
+Syntax:
+sftp sarath@ip
+to get help , give '?' or 'help' in the prompt
+sftp>?(help)
+sftp>pwd(remote)
+sftp>lpwd(client)
+
+sftp>lls(client)
+sftp>ls(remote)
+
+sftp>put f1(single)
+sftp>mput f1 f2 f3 f4(multiple)
+
+sftp>get -r f1(single)
+sftp>mget -r f2 f3 f4 (multiple)
+
+==========================================
+
+3.Rsync
+rsync file_name sarath@ip:location

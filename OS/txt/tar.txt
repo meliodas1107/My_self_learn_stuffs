@@ -1,0 +1,4 @@
+tar cvf tar_name.tar file1 file2 dir1 ...
+tar tvf filename.tar # to see the details of file in tar
+tar xvf folder.tar -C /destination 
+-u is to append to an existing archive and does not duplicate

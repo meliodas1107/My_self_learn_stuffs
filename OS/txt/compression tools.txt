@@ -1,0 +1,25 @@
+compression tools
+1 gzip
+syntax :gzip f1 ,gz
+decompression : gunzip
+
+2 bzip2
+syntax : bzip2 f3
+extension : bz2
+decompression: bunzip2
+
+3 xz
+syntax : xz f3
+ext: xz
+decompression: unxz
+
+gzip is fastest compresses less
+bzip2 is slower but more compression
+=====================================
+in tar , we give location with -C option
+
+To compress tar we have to use options i think (j)
+tar cvfj f2.tar.bz2 f2
+j-> for bz2
+z-> for gz
+J-> for xz
